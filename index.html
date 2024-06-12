@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="title-bar">FRAGGAH</h1>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#about-me">About Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="home">
+            <h2 class="welcome">Hey! It's <strong>Silvio Stefanucci</strong></h2>
+            <p class="main-p">I'm a Game Developer</p>
+        </div>
+        <section>
+            <div class="anchor" id="projects">
+                <h3 class="sec-title">Projects</h3>
+                <hr>
+            </div>
+            <div class="projects">
+                <div class="project-container">
+                    <div class="icon-container none order3"><img class="project-icon" src="images/brand-github.png" alt="GitHub"></div>
+                    <div class="project">
+                        <div class="img-container">
+                            <img class="project-img" src="/images/astropulse.png" alt="Astropulse">
+                        </div>
+                        <div class="project-text">
+                            <h4 class="project-title">Astropulse</h4>
+                            <p class="project-description">
+                                Juego shoot'em up inspirado en grandes títulos de la NES. Su estética y mecánicas se limitan a las que utilizaba dicha consola. Basado en el zodiaco, posee 12 niveles con mecánicas nuevas en cada uno. Al final de cada nivel, deberás destruir al jefe que representa al signo zodiacal.
+                            </p>
+                            <p class="project-description">Íntegramente realizado en C++ con la librería SFML, utilizando un patrón de diseño híbrido entre OOD y ECS.</p>
+                        </div>
+                    </div>
+                    <div class="icon-container"><a href="/archives/Astropulse.rar" download="Astropulse.rar"><img class="project-icon" src="images/world-download.png" alt="Download"></a></div>
+                </div>
+
+                <div class="project-container">
+                    <div class="icon-container order3"><a href="https://github.com/Fraggah/Geowar" target="_blank"><img class="project-icon" src="images/brand-github.png" alt="GitHub"></div></a>
+                    <div class="project">
+                        <div class="img-container">
+                            <img class="project-img" src="/images/geowars.png" alt="Geowars">
+                        </div>
+                        <div class="project-text">
+                            <h4 class="project-title">Geowars</h4>
+                            <p class="project-description">
+                                Juego arcade inspirado en el título "Geometry Wars". Este es un proyecto realizado con el fin de implementar el patrón de diseño ECS (Entity - Component - System). El apartado visual del juego no utiliza sprites, sino que todos los elementos están formados por formas de SFML, dando como resultado una estética minimalista.
+                            </p>
+                            <p class="project-description">Realizado con C++ y SFML.</p>
+                        </div>
+                    </div>
+                    <div class="icon-container"><a href="/archives/Geowar.rar" download="Geowar.rar"><img class="project-icon" src="images/world-download.png" alt="Download"></a></div>
+                </div>
+
+                <div class="project-container">
+                    <div class="icon-container order3"><a href="https://github.com/Fraggah/Geowar" target="_blank"><img class="project-icon" src="images/brand-github.png" alt="GitHub"></div></a>
+                    <div class="project">
+                        <div class="img-container">
+                            <img class="project-img" src="/images/clickscape.png" alt="Clickscape">
+                        </div>
+                        <div class="project-text">
+                            <h4 class="project-title">Clickscape</h4>
+                            <p class="project-description">
+                                Juego arcade clicker inspirado en la mecánica de "Wild Guns" de NES. Destruye a los enemigos, evita darle a los aliados. Se juega únicamente con el mouse. Aproveché la oportunidad para aprender a aplicar shaders GLSL.
+                            </p>
+                            <p class="project-description">
+                                Este proyecto fue un trabajo práctico realizado para la materia "Modelos y Algoritmos para Videojuegos I" de la carrera de "Diseño y Programación de Videojuegos" de la UNL.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icon-container"><a href="/archives/Clickscape.rar" download="Clickscape.rar"><img class="project-icon" src="images/world-download.png" alt="Download"></a></div>
+                </div>
+
+                <div class="project-container">
+                    <div class="icon-container order3"><a href="https://github.com/Fraggah/B-W-Pong" target="_blank"><img class="project-icon" src="images/brand-github.png" alt="GitHub"></div></a>
+                    <div class="project">
+                        <div class="img-container">
+                            <img class="project-img" src="/images/pong.png" alt="Pong!">
+                        </div>
+                        <div class="project-text">
+                            <h4 class="project-title">Pong!</h4>
+                            <p class="project-description">
+                                El clásico "Pong" pero agregando características de juegos como "Arkanoid", como los power-ups de agrandamiento y elementos con los que la bola puede rebotar. Tiene modo pvp y también pvpc con 3 niveles de dificultad.
+                            </p>
+                            <p class="project-description">
+                                Creé el juego sin saber POO, así que está todo en un solo script. El fin era experimentar y aprender SFML. El código es un desastre, aunque tiene "música procedural" y algunas cosas más.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icon-container"><a href="/archives/Pong!.rar" download="Pong!.rar"><img class="project-icon" src="images/world-download.png" alt="Download"></a></div>
+                </div>
+
+                <div class="project-container">
+                    <div class="icon-container order3"><a href="https://github.com/Fraggah/Frogger-cpp" target="_blank"><img class="project-icon" src="images/brand-github.png" alt="GitHub"></div></a>
+                    <div class="project">
+                        <div class="img-container">
+                            <img class="project-img" src="/images/frogger.png" alt="ASCII Frogger">
+                        </div>
+                        <div class="project-text">
+                            <h4 class="project-title">ASCII Frogger</h4>
+                            <p class="project-description">
+                                Juego imitación del clásico "Frogger" de Atari, posee 3 niveles de dificultad. Este proyecto fue creado como práctico integrador de la materia "Introducción a la Programación" de la carrera "Diseño y Programación de Videojuegos" de la UNL.
+                            </p>
+                            <p class="project-description">
+                                Completamente hecho con C++ y gráficos ASCII para reproducirse directamente en la consola.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="icon-container"><a href="/archives/Frogger.rar" download="Frogger.rar"><img class="project-icon" src="images/world-download.png" alt="Download"></a></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="anchor" id="education">
+                <h3 class="sec-title">Education</h3>
+                <hr>
+            </div>
+            <div class="education">
+                <div class="degree">
+                    <h1 class="degree-title">Arreglista Musical - 2022</h1>
+                    <p class="degree-description">Carrera realizada en el Instituto Superior de Música de la UNL, en la cual he aprendido composición musical, utilización de herramientas de creación y edición musical tales como Reaper y Musescore, arreglo de piezas para diferentes grupos de instrumentos, transcripción de obras para registro, entre otras habilidades. Complementada con CCC en Música Popular.</p>
+                </div>
+                <!--  <div class="degree">
+                    <h1 class="degree-title">Java Fullstack Developer - 2023</h1>
+                    <p class="degree-description">Curso de duración extendida del programa "Codo a Codo" brindado por el gobierno de la ciudad de BSAS en el cual he aprendido a diseñar y programar sitios web con herramientas y lenguajes tales como HTML, CSS, Javascript, Java y MySQL entre otras. Este sitio fue construido con lo aprendido ahí, utilizando solamente HTML y CSS.</p>
+                </div> -->
+                <div class="degree">
+                    <h1 class="degree-title">Gráfica y Animación Digital - 2024</h1>
+                    <p class="degree-description">Carrera en la Facultad de Ciencias de la UNL, donde desarrollé habilidades de diseño con Photoshop e Illustrator, trabajé con AutoCAD para planos de construcción, Adobe Premiere para edición de trailers y programas, Reaper para diseño sonoro, y una fuerte especialización en 3D usando 3DsMax para modelado "hard surface", modelado orgánico, render y animación.</p>
+                </div>
+                <div class="degree">
+                    <h1 class="degree-title">Desarrollo de Videojuegos - 2025</h1>
+                    <p class="degree-description">Carrera de la Facultad de Ciencias de la UNL. Con un fuerte enfoque en bases de programación para entender todo el proceso a bajo nivel con el lenguaje C++. Desarrollo de proyectos bajo engines 2D propios implementados con librerías como SFML, Box2D, OpenGL, Haxeflixel, etc. Utilización de engines como Godot, Unity y Unreal Engine 5. Carrera en curso.</p>
+                </div>
+                <div class="degree others">
+                    <h1 class="degree-title">Otros Cursos y Certificaciones</h1>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="anchor" id="about-me">
+                <h3 class="sec-title">About Me</h3>
+                <hr>
+            </div>
+            <div class="about">
+                <div class="about-img"><img class="me" src="/images/me.png" alt="About Me"></div>
+                <div class="about-content"><p>Tengo la determinación de crecer y desarrollarme en la industria de los videojuegos, convertirme en el profesional que hoy anhelo ser. Con esfuerzo constante, cada día que pasa estoy más cerca de conseguirlo.</p></div>
+            </div>
+            <div class="social-container">
+                <div class="icon-container"><a href="https://www.linkedin.com/in/silvio-stefanucci-3524071a4/" target="_blank"><img class="project-icon" src="images/brand-linkedin.png" alt="linkedin"></a></div>
+                <div class="icon-container"><a href="https://www.instagram.com/silvio.e.stefanucci/" target="_blank"><img class="project-icon" src="images/brand-instagram.png" alt="instagram"></a></div>
+                <div class="icon-container"><a href="https://www.youtube.com/channel/UCmY_0TxK9WrAfvZ3ZPHcSQA" target="_blank"><img class="project-icon" src="images/brand-youtube.png" alt="youtube"></a></div>
+                <div class="icon-container"><a href="https://x.com/Fraggah_" target="_blank"><img class="project-icon" src="images/brand-x.png" alt="twitter"></a></div>
+                <div class="icon-container"><a href="https://github.com/Fraggah" target="_blank"><img class="project-icon" src="images/brand-github.png" alt="github"></a></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="foot">Designed & Programmed by Silvio Stefanucci</p>
+    </footer>
+</body>
+</html>
